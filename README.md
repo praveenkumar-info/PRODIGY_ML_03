@@ -7,7 +7,7 @@ This project implements a Support Vector Machine (SVM) model to classify images 
 The dataset used for training and testing the classifier consists of images of cats and dogs. It is divided into a training set and a test set. The images are resized to 64x64 pixels to facilitate processing.
 
 The dataset directory structure is as follows:
-dataset/
+1. dataset/
   training_set/
     cats/
       cat001.jpg
