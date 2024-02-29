@@ -8,24 +8,29 @@ The dataset used for training and testing the classifier consists of images of c
 
 The dataset directory structure is as follows:
 dataset/
-training_set/
-cats/
-cat001.jpg
-cat002.jpg
-...
-dogs/
-dog001.jpg
-dog002.jpg
-...
+  training_set/
+    cats/
+      cat001.jpg
+      cat002.jpg
+      ...
+    dogs/
+      dog001.jpg
+      dog002.jpg
+      ...
 test_set/
-cats/
-cat001.jpg
-cat002.jpg
-...
-dogs/
-dog001.jpg
-dog002.jpg
-...
+    cats/
+      cat001.jpg
+      cat002.jpg
+      ...
+    dogs/
+      dog001.jpg
+      dog002.jpg
+      ...
+
+Please replace "cat001.jpg", "dog001.jpg", etc., with your actual image filenames. Ensure that your directory structure matches the one mentioned in the README, where images of cats are placed under `training_set/cats/` and `test_set/cats/`, and images of dogs are placed under `training_set/dogs/` and `test_set/dogs/`. 
+
+This structure ensures that the ImageDataGenerator can easily load the images for training and testing.
+
 
 
 ## Model Architecture
